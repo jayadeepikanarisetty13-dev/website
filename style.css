@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f1e8;
+    color: #26352b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+
+nav a {
+    margin: 10px;
+    color: #26352b;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero h1 {
+    font: 50px Georgia;
+}
+
+.hero div,
+.hero img {
+    width: 50%;
+}
+
+.hero img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.services {
+    display: flex;
+    gap: 30px;
+}
+
+.services div {
+    flex: 1;
+}
+
+button {
+    padding: 12px 20px;
+    background: #26352b;
+    color: white;
+    border: 0;
+}
+
+.about {
+    background: #dfe5d8;
+}
+
+.contact {
+    text-align: center;
+    background: #cbd5c5;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #26352b;
+    color: white;
+}
